@@ -1,0 +1,8 @@
+-- Active: 1727694770897@@127.0.0.2@5432
+
+
+CREATE TABLE "Address" (
+    id SERIAL PRIMARY KEY,
+    userId INT REFERENCES "User"(id) ON DELETE CASCADE,
+    address TEXT NOT NULL
+);

@@ -1,0 +1,6 @@
+-- Active: 1727694438453@@127.0.0.1@5432
+CREATE TABLE "User" (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
